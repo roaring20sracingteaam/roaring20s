@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Camille Plan">
+<meta name="theme-color" content="#0f1225" id="theme-color-meta">
+<title>Camille Salliot — Training Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <button id="lang-toggle">FR</button>
+  <button id="theme-toggle">☀️</button>
+  <h1>TRAINING PLAN</h1>
+  <div class="subtitle">Roaring 20s' Performance &amp; Adventure<br>Race Team</div>
+  <div class="name">Camille Salliot</div>
+</header>
+
+<nav class="weeks">
+  <button data-week="2" class="active" data-fr="Sem. 2">Week 2</button>
+  <button data-week="3" data-fr="Sem. 3">Week 3</button>
+  <button data-week="4" data-fr="Sem. 4">Week 4</button>
+  <button data-week="5" data-fr="Sem. 5">Week 5</button>
+</nav>
+
+<!-- ============ WEEK 2 ============ -->
+<section class="week-panel active" id="week-2">
+  <nav class="days">
+    <button data-day="1" class="active">1</button>
+    <button data-day="2">2</button>
+    <button data-day="3">3</button>
+    <button data-day="4">4</button>
+    <button data-day="5">5</button>
+    <button data-day="6">6</button>
+  </nav>
+  <main>
+    <div class="week-meta" data-fr="Semaine du 7 septembre">Week of September 7th</div>
+
+    <div class="day-panel active" data-day="1">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Run de récupération">Recovery Run</div>
+      <div class="card">
+        <div class="fact-title" data-fr="60–70 min effort facile">60–70 min easy effort</div>
+        <div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="2">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="1000 &amp; 200">Thousands &amp; 200's</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Terrain plat">Flat terrain</span>
+        <div class="step-list">
+          <div class="step"><div class="step-num purple">1</div><div class="step-body"><div class="step-title" data-fr="Échauffement">Warm-up</div><div class="step-sub" data-fr="Arrêt, étirements, lignes droites">Stop, stretch, strides</div></div></div>
+          <div class="step"><div class="step-num purple">2</div><div class="step-body"><div class="step-title" data-fr="8 × 1000m soutenu">8 × 1000m hard</div><div class="step-sub" data-fr="Allure 5k–10k, 2 min de récup entre les reps">5k–10k pace, 2 min rest between reps</div></div></div>
+          <div class="step"><div class="step-num purple">3</div><div class="step-body"><div class="step-title" data-fr="4 × 200m soutenu">4 × 200m hard</div><div class="step-sub" data-fr="60 sec de récup entre les reps">60 sec rest between reps</div></div></div>
+          <div class="step"><div class="step-num purple">4</div><div class="step-body"><div class="step-title" data-fr="Retour au calme">Cool-down</div><div class="step-sub" data-fr="15 min footing facile">15 min easy jog</div></div></div>
+        </div>
+      </div>
+      <div class="card coach">
+        <div class="card-title" data-fr="Le mot du coach">Coach's Word</div>
+        <div class="coach-text" data-fr="C'est ok de décaler cette séance d'un jour si tu es encore cassée par la course.">It's OK to push this session back a day if you're still beat up from racing.</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="3">
+      <span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Poussée">Push Strength</div>
+      <div class="card"><div class="fact-title" data-fr="Pas de Run aujourd'hui">No run today</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes arrière barre">Barbell Reverse Lunges</span><span class="pill" data-fr="3×5/jambe">3×5/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé couché barre">Barbell Bench Press</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes marchées haltères">DB Walking Lunges</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé épaules assis haltères">Seated DB Shoulder Press</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Montées sur box (61 cm)">Box Step Ups (61 cm)</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Élévations latérales &amp; frontales">DB Lateral &amp; Front Raises</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Toes to Bar">Toes to Bar</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Russian Twists haltère">DB Russian Twists</span><span class="pill" data-fr="3×20/côté">3×20/side</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Maintien statique tractions">Chin-Up Lock-off Holds</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Négatives tractions">Pull-Up Negatives</span><span class="pill">3×8 · 90s</span></div>
+          <div class="step-note" data-fr="Sauter en position tractée complète, puis redescendre lentement bras tendus en résistant tout du long. Viser 5 à 10 sec par répétition.">Jump up to a full pull-up position, then slowly lower to a straight-arm position, resisting the whole way down. Aim for 5–10 sec per rep.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="4">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Tapis Dénivelé">Treadmill Vert</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Tapis">Treadmill</span>
+        <div class="fact-title" data-fr="Effort en dénivelé alterné">Alternating incline effort</div>
+        <div class="fact-sub" data-fr="6 min facile à 6% → 4 min modéré à 15%, répété pendant 70–80 minutes au total">6 min easy @ 6% incline → 4 min moderate @ 15% incline, repeated for 70–80 minutes total</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="5">
+      <span class="session-tag run">Run</span><span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Tirage + Run">Pull Strength + Run</div>
+      <div class="card"><div class="fact-title" data-fr="45–55 min Run de récupération">45–55 min recovery run</div><div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre barre hexagonale">Hex Bar Deadlifts</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Tractions lestées">Weighted Pull-Ups</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Rowing barre">Barbell Rows</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pull-over allongé haltère">DB Lying Lat Pull-Overs</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre roumain haltères">DB Romanian Deadlifts</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Curl haltères vers rowing haut">DB Curls into High Rows</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Relevés de jambes banc décliné">Decline Bench Leg Raises</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Sit-ups lestés">Weighted Sit-Ups</span><span class="pill">3×15</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Suspension à la barre">Dead Hangs</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pinch grip haltère #20">#20 DB Pinch Grip</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="6">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Attaque Descente">Downhill Attack</div>
+      <div class="card">
+        <div class="fact-title" data-fr="120–135 min sur sentiers pentus">120–135 min on steep trails</div>
+      </div>
+      <div class="card coach">
+        <div class="card-title" data-fr="Le mot du coach">Coach's Word</div>
+        <div class="coach-text" data-fr="Plat &amp; montées faciles — attaque les descentes à l'allure course.">Flats &amp; uphills easy — hammer the downhills at race effort.</div>
+      </div>
+    </div>
+
+    <div class="races">
+      <div class="card-title" data-fr="Courses à venir">Upcoming Races</div>
+      <div class="race-item"><span class="race-date">9/5</span><span class="race-name">Spartan Verbier Beast</span></div>
+      <div class="race-item"><span class="race-date">10/4</span><span class="race-name">Spartan Euro Champs</span></div>
+    </div>
+  </main>
+</section>
+
+<!-- ============ WEEK 3 ============ -->
+<section class="week-panel" id="week-3">
+  <nav class="days">
+    <button data-day="1" class="active">1</button>
+    <button data-day="2">2</button>
+    <button data-day="3">3</button>
+    <button data-day="4">4</button>
+    <button data-day="5">5</button>
+    <button data-day="6">6</button>
+  </nav>
+  <main>
+    <div class="week-meta" data-fr="Semaine du 14 septembre">Week of September 14th</div>
+
+    <div class="day-panel active" data-day="1">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Run de récupération">Recovery Run</div>
+      <div class="card">
+        <div class="fact-title" data-fr="70 min effort facile">70 min easy effort</div>
+        <div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="2">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="7' &amp; 60'' Montée">7's &amp; 60's Uphill</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Tapis">Treadmill</span>
+        <div class="step-list">
+          <div class="step"><div class="step-num purple">1</div><div class="step-body"><div class="step-title" data-fr="Échauffement">Warm-up</div><div class="step-sub" data-fr="Arrêt, étirements, lignes droites">Stop, stretch, strides</div></div></div>
+          <div class="step"><div class="step-num purple">2</div><div class="step-body"><div class="step-title" data-fr="4 × 7 min soutenu">4 × 7 min hard</div><div class="step-sub" data-fr="15% de pente, 2 min de récup entre les reps">15% incline, 2 min rest between reps</div></div></div>
+          <div class="step"><div class="step-num purple">3</div><div class="step-body"><div class="step-title" data-fr="8 × 60 sec soutenu">8 × 60 sec hard</div><div class="step-sub" data-fr="15% de pente, 60 sec de récup entre les reps">15% incline, 60 sec rest between reps</div></div></div>
+          <div class="step"><div class="step-num purple">4</div><div class="step-body"><div class="step-title" data-fr="Retour au calme">Cool-down</div><div class="step-sub" data-fr="15 min footing facile">15 min easy jog</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="3">
+      <span class="session-tag run">Run</span><span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Poussée + Run">Push Strength + Run</div>
+      <div class="card"><div class="fact-title" data-fr="40 min Run de récupération">40 min recovery run</div><div class="fact-sub" data-fr="Optionnel aujourd'hui">Optional today</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes arrière barre">Barbell Reverse Lunges</span><span class="pill" data-fr="3×5/jambe">3×5/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé couché barre">Barbell Bench Press</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes marchées haltères">DB Walking Lunges</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé épaules assis haltères">Seated DB Shoulder Press</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Montées sur box (61 cm)">Box Step Ups (61 cm)</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Élévations latérales &amp; frontales">DB Lateral &amp; Front Raises</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Toes to Bar">Toes to Bar</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Russian Twists haltère">DB Russian Twists</span><span class="pill" data-fr="3×20/côté">3×20/side</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Maintien statique tractions">Chin-Up Lock-off Holds</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Négatives tractions">Pull-Up Negatives</span><span class="pill">3×8 · 90s</span></div>
+          <div class="step-note" data-fr="Sauter en position tractée complète, puis redescendre lentement bras tendus en résistant tout du long. Viser 5 à 10 sec par répétition.">Jump up to a full pull-up position, then slowly lower to a straight-arm position, resisting the whole way down. Aim for 5–10 sec per rep.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="4">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="MWLR">MWLR</div>
+      <div class="card">
+        <div class="fact-title" data-fr="75 min sur terrain plat / vallonné">75 min on flat / rolling terrain</div>
+      </div>
+      <div class="card coach">
+        <div class="card-title" data-fr="Le mot du coach">Coach's Word</div>
+        <div class="coach-text" data-fr="Effort de récupération sur la première moitié, progression douce sur la seconde.">Recovery effort on the first half, soft progression on the back half.</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="5">
+      <span class="session-tag run">Run</span><span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Tirage + Run">Pull Strength + Run</div>
+      <div class="card"><div class="fact-title" data-fr="55 min Run de récupération">55 min recovery run</div><div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre barre hexagonale">Hex Bar Deadlifts</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Tractions lestées">Weighted Pull-Ups</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Rowing barre">Barbell Rows</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pull-over allongé haltère">DB Lying Lat Pull-Overs</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre roumain haltères">DB Romanian Deadlifts</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Curl haltères vers rowing haut">DB Curls into High Rows</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Relevés de jambes banc décliné">Decline Bench Leg Raises</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Sit-ups lestés">Weighted Sit-Ups</span><span class="pill">3×15</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Suspension à la barre">Dead Hangs</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pinch grip haltère #20">#20 DB Pinch Grip</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="6">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Attaque Montée">Uphill Attack</div>
+      <div class="card">
+        <div class="fact-title" data-fr="120–135 min sur sentiers, à la recherche de dénivelé">120–135 min on trails, chasing vert</div>
+      </div>
+      <div class="card coach">
+        <div class="card-title" data-fr="Le mot du coach">Coach's Word</div>
+        <div class="coach-text" data-fr="Pousse fort sur toutes les montées — garde le plat &amp; les descentes relâchés.">Work hard on all climbs — keep the flats &amp; descents relaxed.</div>
+      </div>
+    </div>
+
+    <div class="races">
+      <div class="card-title" data-fr="Courses à venir">Upcoming Races</div>
+      <div class="race-item"><span class="race-date">9/5</span><span class="race-name">Spartan Verbier Beast</span></div>
+      <div class="race-item"><span class="race-date">10/4</span><span class="race-name">Spartan Euro Champs</span></div>
+    </div>
+  </main>
+</section>
+
+<!-- ============ WEEK 4 ============ -->
+<section class="week-panel" id="week-4">
+  <nav class="days">
+    <button data-day="1" class="active">1</button>
+    <button data-day="2">2</button>
+    <button data-day="3">3</button>
+    <button data-day="4">4</button>
+    <button data-day="5">5</button>
+    <button data-day="6">6</button>
+  </nav>
+  <main>
+    <div class="week-meta" data-fr="Semaine du 21 septembre — Semaine à volume réduit">Week of September 21st — Lower volume week</div>
+
+    <div class="day-panel active" data-day="1">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Run de récupération">Recovery Run</div>
+      <div class="card">
+        <div class="fact-title" data-fr="60 min effort facile">60 min easy effort</div>
+        <div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="2">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Fractionné Mile">Mile Repeats</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Terrain plat">Flat terrain</span>
+        <div class="step-list">
+          <div class="step"><div class="step-num purple">1</div><div class="step-body"><div class="step-title" data-fr="Échauffement">Warm-up</div><div class="step-sub" data-fr="15 min de Run, puis arrêt / étirements / lignes droites">15 min run, then stop / stretch / strides</div></div></div>
+          <div class="step"><div class="step-num purple">2</div><div class="step-body"><div class="step-title" data-fr="5 × 1 mile soutenu">5 × 1 mile hard</div><div class="step-sub" data-fr="Allure 5k–10k, 3 min de récup entre les reps">5k–10k pace, 3 min rest between reps</div></div></div>
+          <div class="step"><div class="step-num purple">3</div><div class="step-body"><div class="step-title" data-fr="Retour au calme">Cool-down</div><div class="step-sub" data-fr="15 min footing facile">15 min easy jog</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="3">
+      <span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Poussée">Push Strength</div>
+      <div class="card"><div class="fact-title" data-fr="Pas de Run aujourd'hui">No run today</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes arrière barre">Barbell Reverse Lunges</span><span class="pill" data-fr="3×5/jambe">3×5/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé couché barre">Barbell Bench Press</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes marchées haltères">DB Walking Lunges</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé épaules assis haltères">Seated DB Shoulder Press</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Montées sur box (61 cm)">Box Step Ups (61 cm)</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Élévations latérales &amp; frontales">DB Lateral &amp; Front Raises</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Toes to Bar">Toes to Bar</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Russian Twists haltère">DB Russian Twists</span><span class="pill" data-fr="3×20/côté">3×20/side</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Maintien statique tractions">Chin-Up Lock-off Holds</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Négatives tractions">Pull-Up Negatives</span><span class="pill">3×8 · 90s</span></div>
+          <div class="step-note" data-fr="Sauter en position tractée complète, puis redescendre lentement bras tendus en résistant tout du long. Viser 5 à 10 sec par répétition.">Jump up to a full pull-up position, then slowly lower to a straight-arm position, resisting the whole way down. Aim for 5–10 sec per rep.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="4">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Tapis Dénivelé">Treadmill Vert</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Tapis">Treadmill</span>
+        <div class="fact-title" data-fr="Effort en dénivelé alterné">Alternating incline effort</div>
+        <div class="fact-sub" data-fr="5 min facile à 6% → 10 min modéré à 15%, répété pendant 60 minutes au total">5 min easy @ 6% incline → 10 min moderate @ 15% incline, repeated for 60 minutes total</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="5">
+      <span class="session-tag run">Run</span><span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Tirage + Run">Pull Strength + Run</div>
+      <div class="card"><div class="fact-title" data-fr="45 min Run de récupération">45 min recovery run</div><div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre barre hexagonale">Hex Bar Deadlifts</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Tractions lestées">Weighted Pull-Ups</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Rowing barre">Barbell Rows</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pull-over allongé haltère">DB Lying Lat Pull-Overs</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre roumain haltères">DB Romanian Deadlifts</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Curl haltères vers rowing haut">DB Curls into High Rows</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Relevés de jambes banc décliné">Decline Bench Leg Raises</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Sit-ups lestés">Weighted Sit-Ups</span><span class="pill">3×15</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Suspension à la barre">Dead Hangs</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pinch grip haltère #20">#20 DB Pinch Grip</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="6">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Fractionné Trail 3-2-1">3-2-1 Trail Repeats</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Sentiers dénivelé">Vert trails</span>
+        <div class="step-list">
+          <div class="step"><div class="step-num purple">1</div><div class="step-body"><div class="step-title" data-fr="Échauffement">Warm-up</div><div class="step-sub" data-fr="15 min de Run">15 min run</div></div></div>
+          <div class="step"><div class="step-num purple">2</div><div class="step-body"><div class="step-title" data-fr="4 × 3 min tempo">4 × 3 min tempo</div><div class="step-sub" data-fr="1 min footing facile de récup entre les reps">1 min easy jog recovery between reps</div></div></div>
+          <div class="step"><div class="step-num purple">3</div><div class="step-body"><div class="step-title" data-fr="4 × 2 min tempo">4 × 2 min tempo</div><div class="step-sub" data-fr="1 min footing facile de récup entre les reps">1 min easy jog recovery between reps</div></div></div>
+          <div class="step"><div class="step-num purple">4</div><div class="step-body"><div class="step-title" data-fr="4 × 1 min tempo">4 × 1 min tempo</div><div class="step-sub" data-fr="1 min footing facile de récup entre les reps">1 min easy jog recovery between reps</div></div></div>
+          <div class="step"><div class="step-num purple">5</div><div class="step-body"><div class="step-title" data-fr="Retour au calme">Cool-down</div><div class="step-sub" data-fr="15 min de Run">15 min run</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="races">
+      <div class="card-title" data-fr="Courses à venir">Upcoming Races</div>
+      <div class="race-item"><span class="race-date">9/5</span><span class="race-name">Spartan Verbier Beast</span></div>
+      <div class="race-item"><span class="race-date">10/4</span><span class="race-name">Spartan Euro Champs</span></div>
+    </div>
+  </main>
+</section>
+
+<section class="week-panel" id="week-5">
+  <nav class="days">
+    <button data-day="1" class="active">1</button>
+    <button data-day="2">2</button>
+    <button data-day="3">3</button>
+    <button data-day="4">4</button>
+    <button data-day="5">5</button>
+    <button data-day="6">6</button>
+  </nav>
+  <main>
+    <div class="week-meta" data-fr="Semaine du 21 septembre — Semaine à volume réduit (copie test de la semaine 4, pour tester l'interface)">Week of September 21st — Lower volume week (mock copy of Week 4, for UI testing)</div>
+
+    <div class="day-panel active" data-day="1">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Run de récupération">Recovery Run</div>
+      <div class="card">
+        <div class="fact-title" data-fr="60 min effort facile">60 min easy effort</div>
+        <div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="2">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Fractionné Mile">Mile Repeats</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Terrain plat">Flat terrain</span>
+        <div class="step-list">
+          <div class="step"><div class="step-num purple">1</div><div class="step-body"><div class="step-title" data-fr="Échauffement">Warm-up</div><div class="step-sub" data-fr="15 min de Run, puis arrêt / étirements / lignes droites">15 min run, then stop / stretch / strides</div></div></div>
+          <div class="step"><div class="step-num purple">2</div><div class="step-body"><div class="step-title" data-fr="5 × 1 mile soutenu">5 × 1 mile hard</div><div class="step-sub" data-fr="Allure 5k–10k, 3 min de récup entre les reps">5k–10k pace, 3 min rest between reps</div></div></div>
+          <div class="step"><div class="step-num purple">3</div><div class="step-body"><div class="step-title" data-fr="Retour au calme">Cool-down</div><div class="step-sub" data-fr="15 min footing facile">15 min easy jog</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="3">
+      <span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Poussée">Push Strength</div>
+      <div class="card"><div class="fact-title" data-fr="Pas de Run aujourd'hui">No run today</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes arrière barre">Barbell Reverse Lunges</span><span class="pill" data-fr="3×5/jambe">3×5/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé couché barre">Barbell Bench Press</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Fentes marchées haltères">DB Walking Lunges</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Développé épaules assis haltères">Seated DB Shoulder Press</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Montées sur box (61 cm)">Box Step Ups (61 cm)</span><span class="pill" data-fr="3×8/jambe">3×8/leg</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Élévations latérales &amp; frontales">DB Lateral &amp; Front Raises</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Toes to Bar">Toes to Bar</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Russian Twists haltère">DB Russian Twists</span><span class="pill" data-fr="3×20/côté">3×20/side</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Maintien statique tractions">Chin-Up Lock-off Holds</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Négatives tractions">Pull-Up Negatives</span><span class="pill">3×8 · 90s</span></div>
+          <div class="step-note" data-fr="Sauter en position tractée complète, puis redescendre lentement bras tendus en résistant tout du long. Viser 5 à 10 sec par répétition.">Jump up to a full pull-up position, then slowly lower to a straight-arm position, resisting the whole way down. Aim for 5–10 sec per rep.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="4">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Tapis Dénivelé">Treadmill Vert</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Tapis">Treadmill</span>
+        <div class="fact-title" data-fr="Effort en dénivelé alterné">Alternating incline effort</div>
+        <div class="fact-sub" data-fr="5 min facile à 6% → 10 min modéré à 15%, répété pendant 60 minutes au total">5 min easy @ 6% incline → 10 min moderate @ 15% incline, repeated for 60 minutes total</div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="5">
+      <span class="session-tag run">Run</span><span class="session-tag strength" data-fr="Force">Strength</span>
+      <div class="session-name" data-fr="Renfo Tirage + Run">Pull Strength + Run</div>
+      <div class="card"><div class="fact-title" data-fr="45 min Run de récupération">45 min recovery run</div><div class="fact-sub" data-fr="Finir avec 6 × 15 sec de lignes droites, 30 sec de récup entre les reps">Finish with 6 × 15 sec strides, 30 sec rest between reps</div></div>
+      <div class="card">
+        <div class="card-title" data-fr="Force">Strength</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre barre hexagonale">Hex Bar Deadlifts</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Tractions lestées">Weighted Pull-Ups</span><span class="pill">3×5</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Rowing barre">Barbell Rows</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pull-over allongé haltère">DB Lying Lat Pull-Overs</span><span class="pill">3×10</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Soulevé de terre roumain haltères">DB Romanian Deadlifts</span><span class="pill">3×8</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Curl haltères vers rowing haut">DB Curls into High Rows</span><span class="pill" data-fr="3×12 chaque">3×12 each</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Relevés de jambes banc décliné">Decline Bench Leg Raises</span><span class="pill">3×15</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" data-fr="Gainage &amp; Grip">Core &amp; Grip</div>
+        <div class="step-list">
+          <div class="exercise-row"><span class="exercise-name" data-fr="Sit-ups lestés">Weighted Sit-Ups</span><span class="pill">3×15</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Suspension à la barre">Dead Hangs</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+          <div class="exercise-row"><span class="exercise-name" data-fr="Pinch grip haltère #20">#20 DB Pinch Grip</span><span class="pill" data-fr="3× à l'échec · 90s">3× to failure · 90s</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day="6">
+      <span class="session-tag run">Run</span>
+      <div class="session-name" data-fr="Fractionné Trail 3-2-1">3-2-1 Trail Repeats</div>
+      <div class="card">
+        <span class="ctx-tag" data-fr="Sentiers dénivelé">Vert trails</span>
+        <div class="step-list">
+          <div class="step"><div class="step-num purple">1</div><div class="step-body"><div class="step-title" data-fr="Échauffement">Warm-up</div><div class="step-sub" data-fr="15 min de Run">15 min run</div></div></div>
+          <div class="step"><div class="step-num purple">2</div><div class="step-body"><div class="step-title" data-fr="4 × 3 min tempo">4 × 3 min tempo</div><div class="step-sub" data-fr="1 min footing facile de récup entre les reps">1 min easy jog recovery between reps</div></div></div>
+          <div class="step"><div class="step-num purple">3</div><div class="step-body"><div class="step-title" data-fr="4 × 2 min tempo">4 × 2 min tempo</div><div class="step-sub" data-fr="1 min footing facile de récup entre les reps">1 min easy jog recovery between reps</div></div></div>
+          <div class="step"><div class="step-num purple">4</div><div class="step-body"><div class="step-title" data-fr="4 × 1 min tempo">4 × 1 min tempo</div><div class="step-sub" data-fr="1 min footing facile de récup entre les reps">1 min easy jog recovery between reps</div></div></div>
+          <div class="step"><div class="step-num purple">5</div><div class="step-body"><div class="step-title" data-fr="Retour au calme">Cool-down</div><div class="step-sub" data-fr="15 min de Run">15 min run</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="races">
+      <div class="card-title" data-fr="Courses à venir">Upcoming Races</div>
+      <div class="race-item"><span class="race-date">9/5</span><span class="race-name">Spartan Verbier Beast</span></div>
+      <div class="race-item"><span class="race-date">10/4</span><span class="race-name">Spartan Euro Champs</span></div>
+    </div>
+  </main>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>
